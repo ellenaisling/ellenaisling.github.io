@@ -1,0 +1,14 @@
+
+body {
+	font-family: verdana;
+	background: #D0DCE7;
+	color:#0A141D;
+}
+section {
+	background: url(images/marketer-analyzing-campaign.jpg);
+	background-size: cover;
+}
+a {
+	color: #1DB0AA;
+	text-decoration: none;
+}
