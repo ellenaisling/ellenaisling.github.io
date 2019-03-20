@@ -1,16 +1,27 @@
 
+* {
+	padding: 0;
+	margin: 0;
+}
+
 body {
 	font-family: verdana;
 	background: #D0DCE7;
 	color:#0A141D;
+	
 }
 
 header {
 	background: url(../images/marketer-analyzing-campaign.jpg);
 	background-size: cover;
-	height: 50vh;
-	padding: 5px;
+    height: 800px;
+    padding-right: 50px;
+    padding-left: 50px;
 	
+}
+
+h1 {
+	vertical-align: middle;
 }
 
 a {
@@ -29,8 +40,50 @@ h1 {
 	font-size: 40px
 } 
 
+nav {
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+}
+
+img
+{
+	padding: 10px;
+}
+
+p
+{
+	padding: 20px;
+}
+
+
+footer
+{
+	text-align: center;
+}
+
+.blog-images {
+    width:540px; /* you can use % */
+    height: auto;
+}
+
+#logo{
+	padding: 0;
+	float: left;
+}
+
+
+#search-bar{
+	float: right;
+}
+
 #slogan {
 	font-style: italic;
 	text-align: center;
 	font-size: 20px;
+}
+
+#main-blog-image {
+    width:1080px; /* you can use % */
+    height: auto;
 }
