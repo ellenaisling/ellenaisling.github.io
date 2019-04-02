@@ -40,7 +40,7 @@ p {
 }
 
 a {
-	color: #a30b6b;
+	color: #ffffff;
 	text-decoration: none;
 }
 
@@ -53,13 +53,12 @@ img
 nav {
 	text-align: center;
 	padding: 10px;
-	margin: 10px;
 	text-transform: uppercase;
 	height: 4em;
+	background: #a30b6b;
 }
 
-footer {
-	text-align: center;
+
 }
 
 hr {
@@ -67,12 +66,17 @@ hr {
 }
 
 
-
+.social-media {
+	width: 30px;
+	height: auto;
+}
 
 .secondary-posts {
 	margin: auto;
 	width: 30em;
 }
+
+
 
 #main-post
 {
