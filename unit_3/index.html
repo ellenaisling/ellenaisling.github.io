@@ -1,36 +1,33 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<title>Email Marketing Blog</title>
-	</head>
-	<body>
-	<section>
-		<img id= "logo" src="images/logo.jpg">
+</head>
+<body>
+	<header>
+		<img id="logo" src="images/logo.jpg" alt="EMB Logo">
 		<nav>
 			<a href="#">Blog</a>
 			<a href="#">About Us</a>
 			<a href="#">Services</a>
 			<a href="#">Resources</a>
-			</nav>
-			<form id="search-bar">
-			<label>Search the blog</label>
-			<input type="text" name="Search">
-
-			</form>
-	</section>
-
-		<header>
+		</nav>
+		<form id="search-bar">
+			<label for="search">Search the blog</label>
+			<input type="text" name="Search" id="search">
+		</form>
+	</header>
+	<section id="intro">
 		<h1>Email Marketing Blog</h1>
 		<p id="slogan">Tips, tricks and tools to convert leads through email marketing</p>
-		</header>
-		
+	</section>
+	<section>	
 		<p>Lost in your funnel? Generating leads that don't convert? Need to generate quick results on a low budget? Enter email marketing...</p>
 		<h3>The Email Marketing Blog offers free tools and resources to get you started</h3>
-		
-		
-		<section id="main-post">
-			<article>
+	</section>	
+	<section id="main-post">
+		<article>
 			<img src="images/work-flow.jpg">
 			<h3>Email Design Best Practices</h3>
 			<hr>
@@ -41,8 +38,8 @@
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			<a href="#">Read on</a>
-			</article>
-		</section>
+		</article>
+	</section>
 		
 
 		<form>
@@ -51,10 +48,11 @@
 			<input type="text" name="name">
 			<label>Email:</label>
 			<input type="email" name="email">
-			<button type="submit">Sign me up!</button>
+			<input type="submit" value="Sign me up!">
 		</form>
 
 		<section class="secondary-posts">
+			<h2>Recent Posts</h2>
 			<article>
 				<img src="images/abstract-lights.jpg">
 				<h3>How to Double your Email's CTOR</h3>
