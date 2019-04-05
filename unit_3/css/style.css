@@ -40,14 +40,15 @@ p {
 }
 
  nav a {
-	color: #ffffff;
 	text-decoration: none;
 	padding: 1.5em;
 	line-height: 4em;
+	color: #ffffff;
+	text-transform: uppercase;
 }
 
 nav a:hover {
-  background-color: #cb2d6f;
+    background-color: #cb2d6f;
 }
 
 img
@@ -64,11 +65,11 @@ footer {
 }
 
 .intro {
-		height: 800px;
-	    position: relative;
-	    display: grid;
-  		place-items: center;
-  		color: #ffffff;
+	height: 800px;
+	position: relative;
+	display: grid;
+  	place-items: center;
+  	color: #ffffff;
 }
 
 .intro::before {
@@ -87,6 +88,11 @@ footer {
 .intro-inside {
 	position: relative;
 	font: 900 4em;
+}
+
+#copy-1{
+	width: 30em;
+	margin: 0 auto;
 }
 
 .social-media {
@@ -114,6 +120,8 @@ footer {
 
 #search-bar{
 	float: right;
+	color: #ffffff;
+	line-height: 4em;
 }
 
 #slogan {
