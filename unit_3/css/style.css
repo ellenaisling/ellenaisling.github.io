@@ -10,8 +10,8 @@ body {
 	color:#0A141D;
 	font-size: 16px; /*1em = 16px*/
 	font-family: 'Roboto', sans-serif;
-	
 }
+
 nav {
 	text-align: center;
 	text-transform: uppercase;
@@ -21,6 +21,7 @@ nav {
 header {
 	height: 4em;
 	background: #14a098;
+	box-sizing: border-box;
 }
 
 h1 {
@@ -38,10 +39,11 @@ p {
 	margin: auto;
 }
 
-a {
+ nav a {
 	color: #ffffff;
 	text-decoration: none;
 	padding: 1.5em;
+	line-height: 4em;
 }
 
 nav a:hover {
@@ -51,8 +53,6 @@ nav a:hover {
 img
 {
 	width: 100%;
-}
-
 }
 
 hr {
@@ -111,7 +111,6 @@ footer {
 	height: 4em;
 	width: auto;
 }
-
 
 #search-bar{
 	float: right;
