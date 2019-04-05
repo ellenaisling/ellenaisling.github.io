@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,500i|Oswald:500,700');
-
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,900');
 
 * {
 	padding: 0;
@@ -10,27 +9,27 @@ body {
 	background: #f4f5f7;
 	color:#0A141D;
 	font-size: 16px; /*1em = 16px*/
-	font-family: 'EB Garamond', serif;
+	font-family: 'Roboto', sans-serif;
+	
+}
+nav {
+	text-align: center;
+	text-transform: uppercase;
 	
 }
 
 header {
-	background: url(../images/marketer-analyzing-campaign.jpg);
-	background-size: cover;
-    height: 800px;
-    margin:auto;
-	
+	height: 4em;
+	background: #14a098;
 }
 
 h1 {
-	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
 	text-align: center;
 	font-size: 4em;
 }
 h3 {
 	text-align: center;
-	font-family: 'Oswald', sans-serif;
 	margin-top: 1em;
 }
 
@@ -42,6 +41,11 @@ p {
 a {
 	color: #ffffff;
 	text-decoration: none;
+	padding: 1.5em;
+}
+
+nav a:hover {
+  background-color: #cb2d6f;
 }
 
 img
@@ -49,22 +53,41 @@ img
 	width: 100%;
 }
 
-
-nav {
-	text-align: center;
-	padding: 10px;
-	text-transform: uppercase;
-	height: 4em;
-	background: #a30b6b;
-}
-
-
 }
 
 hr {
-	margin: 1em;
+	margin: 2em 0;
+}
+footer {
+	height: 4em;
+	background: #14a098;
 }
 
+.intro {
+		height: 800px;
+	    position: relative;
+	    display: grid;
+  		place-items: center;
+  		color: #ffffff;
+}
+
+.intro::before {
+	content: "";
+  	top: 0;
+ 	left: 0;
+  	width: 100%;
+  	height: 100%;
+  	position: absolute;
+  	background: url(../images/desk-mac.jpg);
+	background-size: cover;
+    margin:auto;
+    filter: brightness(50%);
+}
+
+.intro-inside {
+	position: relative;
+	font: 900 4em;
+}
 
 .social-media {
 	width: 30px;
@@ -76,8 +99,6 @@ hr {
 	width: 30em;
 }
 
-
-
 #main-post
 {
 	margin: auto;
@@ -85,8 +106,10 @@ hr {
 }
 #logo{
 	padding: 0;
+	margin: 0;
 	float: left;
-	width: 4em;
+	height: 4em;
+	width: auto;
 }
 
 
