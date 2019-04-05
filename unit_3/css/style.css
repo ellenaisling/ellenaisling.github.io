@@ -37,6 +37,7 @@ h3 {
 p {
 	font-size: 1em;
 	margin: auto;
+	padding: 1em 0;
 }
 
  nav a {
@@ -51,13 +52,22 @@ nav a:hover {
     background-color: #cb2d6f;
 }
 
+article a {
+	color: #14a098;
+	text-decoration: none;
+}
+
+ article a:hover {
+ 	color: #cb2d6f; 
+ }
+
 img
 {
 	width: 100%;
 }
 
 hr {
-	margin: 2em 0;
+	margin: 1em 0;
 }
 footer {
 	height: 4em;
