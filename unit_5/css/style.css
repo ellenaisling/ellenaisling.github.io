@@ -13,15 +13,40 @@ body {
 }
 
 nav {
-	text-align: center;
-	text-transform: uppercase;
+	background-color:  #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
 	
 }
 
+aside{
+	background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+div {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+section {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
 header {
-	height: 4em;
-	background: #14a098;
-	box-sizing: border-box;
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
 }
 
 h1 {
@@ -70,8 +95,10 @@ hr {
 	margin: 1em 0;
 }
 footer {
-	height: 4em;
-	background: #14a098;
+	
+	background: #FF957E;
+	border: 1px black solid;
+    padding: 20px;
 }
 
 .intro {
