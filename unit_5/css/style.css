@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,900');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #f4f5f7;
+	color:#0A141D;
+	font-size: 16px; /*1em = 16px*/
+	font-family: 'Roboto', sans-serif;
+}
+
+nav {
+	text-align: center;
+	text-transform: uppercase;
+	
+}
+
+header {
+	height: 4em;
+	background: #14a098;
+	box-sizing: border-box;
+}
+
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 4em;
+}
+h3 {
+	text-align: center;
+	margin-top: 1em;
+}
+
+p {
+	font-size: 1em;
+	margin: auto;
+	padding: 1em 0;
+}
+
+ nav a {
+	text-decoration: none;
+	padding: 1.5em;
+	line-height: 4em;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+nav a:hover {
+    background-color: #cb2d6f;
+}
+
+article a {
+	color: #14a098;
+	text-decoration: none;
+}
+
+ article a:hover {
+ 	color: #cb2d6f; 
+ }
+
+img
+{
+	width: 100%;
+}
+
+hr {
+	margin: 1em 0;
+}
+footer {
+	height: 4em;
+	background: #14a098;
+}
+
+.intro {
+	height: 800px;
+	position: relative;
+	display: grid;
+  	place-items: center;
+  	color: #ffffff;
+}
+
+.intro::before {
+	content: "";
+  	top: 0;
+ 	left: 0;
+  	width: 100%;
+  	height: 100%;
+  	position: absolute;
+  	background: url(../images/desk-mac.jpg);
+	background-size: cover;
+    margin:auto;
+    filter: brightness(50%);
+}
+
+.intro-inside {
+	position: relative;
+	font: 900 4em;
+}
+
+#copy-1{
+	width: 30em;
+	margin: 0 auto;
+}
+
+.social-media {
+	width: 30px;
+	height: auto;
+}
+
+.secondary-posts {
+	margin: auto;
+	width: 30em;
+}
+
+#main-post
+{
+	margin: auto;
+	width: 30em;
+}
+#logo{
+	padding: 0;
+	margin: 0;
+	float: left;
+	height: 4em;
+	width: auto;
+}
+
+#search-bar{
+	float: right;
+	color: #ffffff;
+	line-height: 4em;
+}
+
+#slogan {
+	font-style: italic;
+	text-align: center;
+	font-size: 2em;
+}
+
