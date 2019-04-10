@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,900');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #f4f5f7;
+	color:#0A141D;
+	font-size: 16px; /*1em = 16px*/
+	font-family: 'Roboto', sans-serif;
+}
+
+nav {
+	text-align: center;
+	text-transform: uppercase;
+	
+}
+
+header {
+	height: 4em;
+	background: #14a098;
+	box-sizing: border-box;
+}
+
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 4em;
+}
+h3 {
+	text-align: center;
+	margin-top: 1em;
+}
+
+p {
+	font-size: 1em;
+	margin: auto;
+	padding: 1em 0;
+}
+
+ nav a {
+	text-decoration: none;
+	padding: 1.5em;
+	line-height: 4em;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+nav a:hover {
+    background-color: #cb2d6f;
+}
+
+article a {
+	color: #14a098;
+	text-decoration: none;
+}
+
+ article a:hover {
+ 	color: #cb2d6f; 
+ }
+
+img
+{
+	width: 100%;
+	max-width: 1200px;
+}
+
+nav img {
+	vertical-align: middle;
+}
+
+hr {
+	margin: 1em 0;
+}
+footer {
+	height: 4em;
+	background: #14a098;
+}
+
+article {
+	width: 30%;
+	float:left;
+	padding: 1.5%
+}
+
+/*input {
+	width: 80%;
+	margin: 1em;
+}
+
+form p {
+	text-align: center;
+}*/
+
+.secondary-posts {
+	width: 96%;
+	margin: auto;
+}
+
+.intro {
+	height: 800px;
+	position: relative;
+	display: grid;
+  	place-items: center;
+  	color: #ffffff;
+}
+
+.intro::before {
+	content: "";
+  	top: 0;
+ 	left: 0;
+  	width: 100%;
+  	height: 100%;
+  	position: absolute;
+  	background: url(../images/cover-photo.jpg);
+	background-size: cover;
+    margin:auto;
+    filter: brightness(50%);
+}
+
+.intro-inside {
+	position: relative;
+	font: 900 4em;
+}
+
+
+#main-post{
+	background: red;
+	float: left;
+	width: 60%;
+	margin: 0 0 0 5%;
+}
+
+aside{
+	background: red;
+	float: right;
+	width: 35%;
+	margin: 0 5% 0 0;
+	}
+
+/*.column {
+	float: left;
+	width: 30%;
+	height: 300px;
+	padding: 20px;
+	clear: both;
+	margin: 0 0 0 2.5%;
+	display: inline-block;
+}
+
+#column-3 {
+	margin: 0 2.5%;
+}*/
+
+.clearfix:after {
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content: " ";
+	display: block;
+	clear: both;
+	
+}
+
+.social-media {
+	width: 30px;
+	height: auto;
+
+}
+
+
+#logo{
+	padding: 0;
+	margin: 0;
+	float: left;
+	height: 4em;
+	width: auto;
+}
+
+#search-bar{
+	float: right;
+	color: #ffffff;
+	line-height: 4em;
+}
+
+#slogan {
+	font-style: italic;
+	text-align: center;
+	font-size: 2em;
+}
+
