@@ -3,6 +3,7 @@
 * {
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
 }
 
 body {
@@ -15,13 +16,18 @@ body {
 nav {
 	text-align: center;
 	text-transform: uppercase;
+	line-height: 1em;
 	
 }
 
 header {
 	height: 4em;
 	background: #14a098;
-	box-sizing: border-box;
+}
+
+header *{
+	display: inline-block;
+	vertical-align: middle;
 }
 
 h1 {
@@ -29,6 +35,7 @@ h1 {
 	text-align: center;
 	font-size: 4em;
 }
+
 h3 {
 	text-align: center;
 	margin-top: 1em;
@@ -43,7 +50,6 @@ p {
  nav a {
 	text-decoration: none;
 	padding: 1.5em;
-	line-height: 4em;
 	color: #ffffff;
 	text-transform: uppercase;
 }
@@ -93,44 +99,33 @@ article {
 form p {
 	text-align: center;
 }*/
+.container{
+	max-width: 1200px; 
+	margin: auto;
+}
+
+.container *{
+	float: left;
+	padding: 2em;
+}
 
 .secondary-posts {
-	width: 96%;
+	max-width: 1200px;
 	margin: auto;
 }
 
 .intro {
-	height: 800px;
-	position: relative;
-	display: grid;
-  	place-items: center;
-  	color: #ffffff;
-}
-
-.intro::before {
-	content: "";
-  	top: 0;
- 	left: 0;
-  	width: 100%;
-  	height: 100%;
-  	position: absolute;
-  	background: url(../images/cover-photo.jpg);
+  	background: url(../images/cover-photo.jpg), linear-gradient(#eb01a5, #d13531);
 	background-size: cover;
-    margin:auto;
-    filter: brightness(50%);
+	height: 800px;
 }
-
-.intro-inside {
-	position: relative;
-	font: 900 4em;
-}
-
 
 #main-post{
 	background: red;
+	width: 33.33%;
+}
+#main-post img p{
 	float: left;
-	width: 60%;
-	margin: 0 0 0 5%;
 }
 
 aside{
@@ -140,19 +135,6 @@ aside{
 	margin: 0 5% 0 0;
 	}
 
-/*.column {
-	float: left;
-	width: 30%;
-	height: 300px;
-	padding: 20px;
-	clear: both;
-	margin: 0 0 0 2.5%;
-	display: inline-block;
-}
-
-#column-3 {
-	margin: 0 2.5%;
-}*/
 
 .clearfix:after {
 	visibility: hidden;
@@ -170,6 +152,9 @@ aside{
 
 }
 
+#sign-up{
+	width: 33.33%;
+}
 
 #logo{
 	padding: 0;
