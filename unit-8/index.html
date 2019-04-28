@@ -4,18 +4,24 @@
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<title>Email Marketing Blog</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  <!--[if lt IE 9]>
+            <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+        <![endif]-->
 </head>
 <body>
 	<header>
 		<img id="logo" src="images/logo.jpg" alt="EMB Logo">
-		<nav>
+		<label for="toggle" id="menu">Menu</label>
+        <input type="checkbox" id="toggle">
+		<nav id="header-nav">
 			<a href="#">Blog</a>
 			<a href="#">About Us</a>
 			<a href="#">Services</a>
 			<a href="#">Resources</a>
 		</nav>
 		<form id="search-bar">
-			<label for="search">Search the blog</label>
+			<label for="search">Search</label>
 			<input type="text" name="Search" id="search">
 		</form>
 	</header>
@@ -36,7 +42,7 @@
 		</section> -->
 
 		<aside>
-			<p>Want to recieve weekly blog updates?</p>
+			<h3>Want to recieve weekly blog updates?</h3>
 			<form id="sign-up">
 				<div id="name">
 					<label>Name:</label>
@@ -46,7 +52,7 @@
 					<label>Email:</label>
 					<input type="email" name="email">
 				</div>
-					<input type="submit" value="Sign me up!">
+				<input type="submit" value="Sign me up!" id="sign-up-button">
 			</form>
 		</aside>
     </div>

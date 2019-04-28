@@ -30,14 +30,6 @@ header *{
 	vertical-align: middle;
 }
 
-/*header nav {
-	padding: 0.9em;
-    line-height: 2em;
-}
-
-header nav a{
-	padding: 1.5em;
-}*/
 
 h1 {
 	text-transform: uppercase;
@@ -48,18 +40,17 @@ h1 {
 
 h3 {
 	text-align: center;
-	margin-top: 1em;
+	margin: 5% 0;
 }
 
 p {
 	font-size: 1em;
 	margin: auto;
-	padding: 1em 0;
+	padding: 5% 0;
 }
 
  nav a {
 	text-decoration: none;
-    padding: 1.5em;
     color: #ffffff;
     text-transform: uppercase;
     display: inline-block;
@@ -90,10 +81,10 @@ nav img {
 }
 
 hr {
-	margin: 1em 0;
+	margin: 3% 0;
 }
+
 footer {
-	height: 4em;
 	background: #14a098;
 }
 
@@ -103,23 +94,29 @@ article {
 	padding: 1.5%
 }
 
-/*input {
-	width: 80%;
-	margin: 1em;
+aside{
+	margin: auto;
+	width: 33.3%;
+	}
+
+aside p {
+	text-align: center;
 }
 
-form p {
-	text-align: center;
-}*/
-.container{
-	max-width: 1200px; 
+label{
 	margin: auto;
 }
 
-/*.container *{
-	float: left;
-	padding: 2em;
-}*/
+input{
+	margin: auto;
+}
+
+.container{ 
+	margin: auto;
+	padding: 2% 0;
+    background: #14a098;
+    color: white;
+}
 
 .secondary-posts {
 	max-width: 1200px;
@@ -138,32 +135,6 @@ form p {
 	padding: 10% 0;
 }
 
-/*#main-post{
-	background: red;
-	width: 63.33%;
-}
-
-#main-post img p{
-	float: left;
-}*/
-
-aside{
-	background: red;
-	margin: auto;
-	width: 33.3%;
-	}
-
-aside p {
-	text-align: center;
-}
-
-label{
-	text-align: center;
-}
-
-input{
-	text-align: center;
-}
 
 .clearfix:after {
 	visibility: hidden;
@@ -176,9 +147,22 @@ input{
 }
 
 .social-media {
-	width: 30px;
+	width: 45%;
 	height: auto;
 
+}
+
+#menu {
+	text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 1em;
+    display: none;
+}
+
+#toggle {
+	display: none;
 }
 
 #sign-up{
@@ -204,5 +188,73 @@ input{
 	font-style: italic;
 	text-align: center;
 	font-size: 2em;
+}
+
+#name, #email{
+	text-align: center;
+	margin: 2% auto;
+}
+
+#sign-up-button{
+	display: block;
+    margin: 5% auto 2%;
+    color: white;
+    background: #cb2d6f;
+    padding: 3.5%;
+    border: none;
+    font-size: 1.2em;
+}
+
+@media only screen and (max-width: 1180px)
+{
+	article {
+		width: 50%;
+	}
+
+	aside{
+		width: 40%;
+	}
+}
+
+}
+
+@media only screen and (max-width: 800px){
+ 	
+ 	header nav {
+ 		display: none;
+ 	}
+
+ 	header nav a {
+    	display: block;
+    	padding: 1em;
+	}
+
+	#menu {
+		display: block;
+	}
+
+	#toggle:checked + nav{
+	display: block;
+	}
+}
+
+@media only screen and (max-width: 766px)
+{
+	article {
+		width: 80%;
+		float:none;
+		margin: auto;
+	}
+
+	aside {
+		width: 65%
+	}
+}
+
+@media only screen and (max-width: 766px)
+{
+	article {
+	width: 95%;
+	}
 }
 
