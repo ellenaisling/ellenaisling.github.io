@@ -11,6 +11,7 @@ body {
 	color:#0A141D;
 	font-size: 16px; /*1em = 16px*/
 	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 }
 
 nav {
@@ -156,9 +157,9 @@ input{
 	text-decoration: none;
     color: #ffffff;
     text-transform: uppercase;
-    display: inline-block;
     padding: 1em;
     display: none;
+    text-align: center;
 }
 
 #toggle {
@@ -205,8 +206,8 @@ input{
     font-size: 1.2em;
 }
 
-@media only screen and (max-width: 1180px)
-{
+@media only screen and (max-width: 1180px){
+	
 	article {
 		width: 50%;
 	}
@@ -214,8 +215,6 @@ input{
 	aside{
 		width: 40%;
 	}
-}
-
 }
 
 @media only screen and (max-width: 800px){
@@ -238,8 +237,8 @@ input{
 	}
 }
 
-@media only screen and (max-width: 766px)
-{
+@media only screen and (max-width: 766px){
+	
 	article {
 		width: 80%;
 		float:none;
@@ -251,8 +250,8 @@ input{
 	}
 }
 
-@media only screen and (max-width: 766px)
-{
+@media only screen and (max-width: 766px){
+	
 	article {
 	width: 95%;
 	}
