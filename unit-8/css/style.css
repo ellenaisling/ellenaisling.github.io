@@ -112,6 +112,18 @@ input{
 	margin: auto;
 }
 
+button {
+	background-color: transparent;
+    /*background-repeat: no-repeat;*/
+    border: none;
+   /* overflow: hidden;  */
+    margin-right: 1em;
+}
+
+input {
+	padding: .2em 1em .2em 1em;
+}
+
 .container{ 
 	margin: auto;
 	padding: 2% 0;
@@ -120,8 +132,8 @@ input{
 }
 
 .secondary-posts {
-	max-width: 1200px;
-	margin: auto;
+	max-width: 1000px;
+	margin: 3em auto;
 }
 
 .intro {
@@ -147,8 +159,13 @@ input{
 	
 }
 
+#top-bar {
+	display: block;
+	clear: both;
+}
+
 .social-media {
-	width: 45%;
+	width: 2em;
 	height: auto;
 
 }
@@ -166,6 +183,10 @@ input{
 	display: none;
 }
 
+#toggle-2 {
+	display: none;
+}
+
 #sign-up{
 	width: 33.33%;
 	display: inline;
@@ -178,11 +199,16 @@ input{
 	float: left;
 	width: auto;
 }
+#search {
+	margin: 0 1em 0 0;
+    border-radius: 2em 2em 2em 2em;
+    height: 2em;
+}
 
 #search-bar{
 	float: right;
 	color: #ffffff;
-	margin: 1em;
+	margin-top: .7em;
 }
 
 #slogan {
@@ -234,6 +260,28 @@ input{
 
 	#toggle:checked + nav{
 	display: block;
+	}
+
+	#search {
+		display: none;
+	}
+
+	#toggle-2:checked + #search {
+		display: block;
+	}
+
+	.intro {
+  	background: linear-gradient(to top, rgba(20,160,152, 0.3), rgba(20,160,152, 0.7));
+	color: white;
+	padding: 5% 0;
+	height: 400px;
+	}
+
+	h1 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 3em;
+	clear: both;
 	}
 }
 
