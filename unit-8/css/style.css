@@ -262,10 +262,6 @@ input {
 	display: block;
 	}
 
-	#search {
-		display: none;
-	}
-
 	#toggle-2:checked + #search {
 		display: block;
 	}
